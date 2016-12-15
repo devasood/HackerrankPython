@@ -1,6 +1,5 @@
-
 def checklambda(f, given):
-    flag = False;
+    flag = False
     for char in given:
         if f(char):
             flag = True

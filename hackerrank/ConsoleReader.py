@@ -1,5 +1,5 @@
 def get_int():
-    return int(get_string())
+    return map(int, input().split())
 
 
 def get_float():
